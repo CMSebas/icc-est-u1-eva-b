@@ -41,6 +41,15 @@ public class App {
         for(int i=0;i<books.length;i++){
             System.out.println(books[i]);
         }
+
+        for(int i=0;i<books.length;i++){
+            for (int j=0;i<books.length;i++){
+                
+            }
+        }
+
+
+
         
         
 

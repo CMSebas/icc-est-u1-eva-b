@@ -4,18 +4,20 @@ package controllers;
 import models.Book;
 
 public class BookController {
-    
+    Book[] libros=new Book();
 
     public void sortByName(Book[] libros) {
+        // Implementación pendiente
         
-        
-        
-
-        for(int i=0;i<libros.length-1;i++){
-            for(int j=0;i<libros.length-1;j++){
-                
-            }
-        }
     }
+
+    
+    
+
+
+
+    
+
+    
     
 }

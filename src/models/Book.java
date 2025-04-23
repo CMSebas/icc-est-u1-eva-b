@@ -1,5 +1,7 @@
 package models;
 
+
+
 public class Book {
     private String nombre;
     private int codigo;
@@ -13,7 +15,7 @@ public class Book {
         this.nombre = nombre;
         this.codigo = codigo;
     }
-
+    
     public String getNombre() {
         return nombre;
     }
@@ -27,14 +29,10 @@ public class Book {
         this.codigo = codigo;
     }
 
-
     @Override
     public String toString() {
-        return "Book [nombre=" + nombre + ", codigo=" + codigo + ", getNombre()=" + getNombre() + ", getCodigo()="
-                + getCodigo() + "]";
+        return "Book [nombre=" + nombre + ", codigo=" + codigo + "]";
     }
-
-    
 
     
 
