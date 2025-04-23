@@ -1,5 +1,8 @@
+import models.Book;
+
 public class App {
     public static void main(String[] args) throws Exception {
+        
 
         Book[] books = {
                 new Book("Clean Code", 2008),
@@ -33,6 +36,13 @@ public class App {
                 new Book("Deep Learning", 2016),
                 new Book("The Elements of Statistical Learning", 2001)
         };
+
+        
+        for(int i=0;i<books.length;i++){
+            System.out.println(books[i]);
+        }
+        
+        
 
     }
 }
